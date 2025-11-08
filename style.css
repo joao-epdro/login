@@ -1,0 +1,88 @@
+body{
+    background-color: #4E81C9;
+    margin: 0px;
+    border: 1px solid #4E81C9;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.cabecalho{
+    width: 40%;
+    height: 28vh;
+    background-color: #fff;
+    border: 1px solid #fff;
+    float: right;
+}
+.cabecalho h1{
+    text-align: center;
+    margin-top: 150px;
+}
+.login{
+    width: 40%;
+    height: 72vh;
+    background-color: white;
+    border: 1px solid white;
+    float:right;
+    clear: right;
+}
+.login #email{
+    width: 370px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(117, 116, 116);
+    margin-left: 20px;
+}
+.label {
+    display: block;
+    margin-bottom: 4px;
+    margin-left: 20px;
+}
+.login #senha{
+    width: 370px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(117, 116, 116);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.label2{
+    display: block;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.esquecer{
+    float: right;
+    font-size: 12px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.esquecer a{
+    text-decoration: none;
+    color: #4E81C9;
+}
+.esquecer a:hover{
+    
+}
+#enviar{
+    width: 370px;
+    height: 40px;
+    padding: 10px;
+    background-color: #6b9ee5;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 116, 116);
+    float: bottom;
+    margin-left: 20px;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #1d2a3d;
+}
+#enviar:hover{
+    background-color: #4a87e0;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
